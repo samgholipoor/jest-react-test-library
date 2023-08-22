@@ -11,14 +11,13 @@ create a file `setup-jest.ts`, put the following to it:
 ``` import "@testing-library/jest-dom" ```
 
 ## step 3
-create a file `jest.config.cjs`, put the following to it:
+create a file `jest.config.ts`, put the following to it:
 
 ```
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
   preset: "ts-jest",
-  testEnvironment: "jsdom",
-  // setupFilesAfterEnv: ["<rootDir>/setup-jest.js"],
+  testEnvironment: "jsdom,
   setupFilesAfterEnv: ["<rootDir>/setup-jest.ts"],
 };
 ```
@@ -27,5 +26,5 @@ module.exports = {
 add following script to package.json:
 
 ```
-"test": "ts-jest"
+"test": "jest"
 ```
