@@ -22,3 +22,10 @@ module.exports = {
   setupFilesAfterEnv: ["<rootDir>/setup-jest.ts"],
 };
 ```
+
+## step 4
+add following script to package.json:
+
+```
+"test": "ts-jest"
+```
