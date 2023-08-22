@@ -28,3 +28,12 @@ add following script to package.json:
 ```
 "test": "jest"
 ```
+
+## step 5
+add following types to tsconfig.ts
+
+```
+{
+    "types": ["node", "jest", "@testing-library/jest-dom"]
+}
+```
