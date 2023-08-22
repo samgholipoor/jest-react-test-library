@@ -3,7 +3,7 @@
 ## step 1
 run following command: 
 
-``` yarn add -D jest ts-jest @types/jest ts-node @testing-library/jest-dom @testing-library/react jest-environment-jsdom ```
+``` yarn add -D jest ts-jest ts-node @types/jest @testing-library/jest-dom @testing-library/react jest-environment-jsdom ```
 
 ## step 2
 create a file `setup-jest.ts`, put the following to it:
