@@ -5,9 +5,9 @@ run following command:
 
 ``` yarn add -D jest ts-jest ts-node @types/jest @testing-library/jest-dom @testing-library/react jest-environment-jsdom ```
 
-`jest`: `test(), describe(), expect(), expect(value).toBe(4)` 
-
-`@testing-library/jest-dom`: `expect(element).toBeInTheDocument()`
+- `jest`: `test(), describe(), expect(), expect(value).toBe(4)` 
+- `@testing-library/jest-dom`: `expect(element).toBeInTheDocument()`
+- `@testing-library/react`: `render(), screen()`
 
 ## step 2
 create a file `setup-jest.ts`, put the following to it:
