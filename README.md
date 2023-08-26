@@ -9,11 +9,11 @@ run following command:
 - `@testing-library/jest-dom`: `expect(element).toBeInTheDocument()`
   add custom matchers related to the dom
 - `@testing-library/react`: `render(), screen()`
-  query single element:
+  - query single element:
     - getBy
     - queryBy
     - findBy
-  query multiple elements:
+  - query multiple elements:
     - getAllBy
     - queryAllBy
     - findAllBy
