@@ -5,7 +5,7 @@ run following command:
 
 ``` yarn add -D jest ts-jest ts-node @types/jest @testing-library/jest-dom @testing-library/react jest-environment-jsdom ```
 
-`jest`: `test(), describe(), expect(), expect(value).toBe(4)`
+`jest`: `test(), describe(), expect(), expect(value).toBe(4)` \n
 `@testing-library/jest-dom`: `expect(element).toBeInTheDocument()`
 
 ## step 2
